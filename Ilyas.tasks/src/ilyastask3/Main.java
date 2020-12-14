@@ -8,5 +8,6 @@ public class Main {
         short p = 20;
         System.out.println("Square=" + s);
         System.out.println("Perimeter=" + p);
+        //обновил на Begin 3
     }
 }
