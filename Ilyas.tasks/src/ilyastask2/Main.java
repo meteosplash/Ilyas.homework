@@ -5,5 +5,6 @@ public class Main {
         int g = 5;
         long r = 25;
         System.out.println("S=" + r);
+
     }
 }
