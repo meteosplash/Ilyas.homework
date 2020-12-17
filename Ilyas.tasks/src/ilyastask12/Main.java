@@ -9,5 +9,6 @@ public class Main {
         short g = 5;
         System.out.println("P="+ u);
         System.out.println("C= "+ j);
+
     }
 }
