@@ -12,5 +12,6 @@ public class MAin {
         System.out.println("Разность = "+ c);
         System.out.println("Произведение = "+ 154);
         System.out.println("Частное ="+ e);
+
     }
 }
