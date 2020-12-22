@@ -5,9 +5,8 @@ public class Main {
         short a = 3;
         short b = 4;
         short c = 5;
-        short v = 60;
         short s = 2*(3*4+4*5+3*5);
-        System.out.println("Oбъём="+ v);
-        System.out.println("Площадь="+ s);
+        System.out.println("Oбъём="+a*b*c);
+        System.out.println("Площадь="+2*(a*b+b*c+a*c));
     }
 }
