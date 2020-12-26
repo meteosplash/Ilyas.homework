@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         int s= 3;
         int i = 5;
-        double u = (Math.pow(3,2))+ (Math.pow(5,2));
-        double h = (Math.pow(3,2))- (Math.pow(5,2));
-        double e= (Math.pow(3,2))* (Math.pow(5,2));
-        double t = (Math.pow(5,2))/ (Math.pow(3,2));
+        double u = (Math.pow(s,2))+ (Math.pow(i,2));
+        double h = (Math.pow(s,2))- (Math.pow(i,2));
+        double e= (Math.pow(s,2))* (Math.pow(i,2));
+        double t = (Math.pow(i,2))/ (Math.pow(s,2));
 
                 System.out.println("Сумма квадратов 3 и 5 = "+ u);
         System.out.println("Разность квадратов 3 и 5 = "+ h);
