@@ -7,11 +7,11 @@ public class Main {
         byte l = 25;
         int c = r-k;
         short j = 154;
-        double e = k/r;
-        System.out.println("Сумма = "+ (r+k));
-        System.out.println("Разность = "+ c);
-        System.out.println("Произведение = "+ r*k);
-        System.out.println("Частное = "+ e);
+        float u = Math.abs(14)/Math.abs(11);
+        System.out.println("Сумма = "+ Math.abs(14)+Math.abs(11));
+        System.out.println("Разность = "+ ((Math.abs(14))- (Math.abs(11))));
+        System.out.println("Произведение = "+ Math.abs(14)* Math.abs(11));
+        System.out.println("Частное = "+ u);
 
     }
 }
