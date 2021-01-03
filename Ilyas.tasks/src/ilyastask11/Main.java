@@ -2,15 +2,13 @@ package ilyastask11;
 
 public class Main {
     public static void main(String[] args) {
-        int r = 14;
-        int k = 11;
-        byte l = 25;
-        int c = r-k;
-        short j = 154;
-        float u = Math.abs(14)/Math.abs(11);
-        System.out.println("Сумма = "+ Math.abs(14)+Math.abs(11));
-        System.out.println("Разность = "+ ((Math.abs(14))- (Math.abs(11))));
-        System.out.println("Произведение = "+ Math.abs(14)* Math.abs(11));
+        double r = 14;
+        double k = 11;
+        double u = Math.abs(r)/Math.abs(k);
+        double j = (Math.abs(r) + Math.abs(k));
+        System.out.println("Cумма = " + j);
+        System.out.println("Разность = "+ ((Math.abs(r))- (Math.abs(k))));
+        System.out.println("Произведение = "+ Math.abs(r)* Math.abs(k));
         System.out.println("Частное = "+ u);
 
     }
