@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         int s = 3;
         int h =4;
-        int j = 5;
-        int p = s+h+j;
-        double u = Math.sqrt(Math.pow(s,2)+Math.pow(h,2));
+        int g = 2;
+        double u = Math.sqrt(Math.pow(s,g)+Math.pow(h,g));
+        double p = s+h+u;
         System.out.println("P= "+ p);
         System.out.println("C= "+ u);
 
