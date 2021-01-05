@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Введите 2 числа");
+        System.out.println("Введите 2  целых числа");
         Scanner top = new Scanner(System.in);
         int number = top.nextInt();
         Scanner top2 = new Scanner(System.in);
