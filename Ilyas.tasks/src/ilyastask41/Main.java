@@ -12,5 +12,6 @@ public class Main {
             all+=Math.pow(n+a,2);
         }
         System.out.println("Сумма квадратов чисел от N до 2*N = "+all);
+
     }
 }
