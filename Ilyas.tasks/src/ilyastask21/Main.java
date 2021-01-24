@@ -7,11 +7,14 @@ public class Main {
         System.out.println("Введите 2  целых числа");
         Scanner top = new Scanner(System.in);
         int number = top.nextInt();
-        Scanner top2 = new Scanner(System.in);
-        int number2 = top2.nextInt();
-        if(number2>number)
-        System.out.println("Большее число -  " +number2);
-        if(number>number2)
-            System.out.println("Большее число - " +number);
+        int number2 = top.nextInt();
+        // условие: если второе число больше
+        if(number2>number) {
+            System.out.println("Большее число -  " + number2);
+        }
+        // условие: если первое число больше
+        if(number>number2) {
+            System.out.println("Большее число - " + number);
+        }
     }
 }
