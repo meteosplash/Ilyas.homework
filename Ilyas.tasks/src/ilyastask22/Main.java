@@ -7,8 +7,7 @@ public class Main {
         System.out.println("Введите 2 целых числа");
         Scanner tulyak = new Scanner(System.in);
         int x = tulyak.nextInt();
-        Scanner tulyak2 = new Scanner(System.in);
-        int y  = tulyak2.nextInt();
+        int y  = tulyak.nextInt();
         if(x>y) {
             System.out.println("Порядковый номер меньшего числа - 2");
         }
