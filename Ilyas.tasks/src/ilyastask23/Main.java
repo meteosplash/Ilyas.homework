@@ -7,8 +7,7 @@ public class Main {
         System.out.println("Введите 2 целых числа");
         Scanner top = new Scanner(System.in);
         int x = top.nextInt();
-        Scanner top2 = new Scanner(System.in);
-        int y = top2.nextInt();
+        int y = top.nextInt();
         if(x>y){
             System.out.println(x+ " большее число, меньшее число "+ y);
         }
