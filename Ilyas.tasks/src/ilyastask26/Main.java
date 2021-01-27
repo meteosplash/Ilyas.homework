@@ -4,10 +4,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Введите 2 целых числа");
         Scanner top = new Scanner(System.in);
         int x = top.nextInt();
-        Scanner top2 = new Scanner(System.in);
-        int y = top2.nextInt();
+        int y = top.nextInt();
+        if(x==y){
+            x=y=0;
+            System.out.println("Новое значение = "+ y);
+        }
         if(x!=y){
             if(x>y){
                 y=x;
@@ -17,10 +21,6 @@ public class Main {
                 x=y;
                 System.out.println("Большее значение = "+ y);
             }
-        }
-        if(x==y){
-            x=y=0;
-            System.out.println("Новое значение = "+ y);
         }
     }
 }
