@@ -11,7 +11,7 @@ public class Main {
         int sum = a+b;
         if(a>b) {
             a = sum-a;
-            b = sum - b;
+
         }
             if(a<b){
                 a=sum-a;
