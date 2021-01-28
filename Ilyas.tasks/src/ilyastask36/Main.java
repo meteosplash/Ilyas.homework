@@ -8,9 +8,11 @@ public class Main {
         System.out.println("Килограмм конфет стоит: ");
         double buy = candy.nextDouble();
         System.out.println("рублей");
-        double kg;
-        for(kg = 1.2;kg<=2;kg+=0.2){
-            System.out.println(kg+" Кг конфет стоит - "+(buy*kg)+" рублей");
+        int kg;
+        double sout = 1;
+        for(kg = 10;kg<=20;kg+=2){
+            System.out.println(sout+" Кг конфет стоит - "+(buy*sout)+" рублей");
+            sout+=0.2;
         }
     }
 }
