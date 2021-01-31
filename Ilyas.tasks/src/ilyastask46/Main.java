@@ -9,7 +9,7 @@ public class Main {
         Scanner while1 = new Scanner(System.in);
         double a = while1.nextDouble();
         double b = while1.nextDouble();
-        while(a>=b){
+        while(a>0 && b>0 && a>=b ){
             a-=b;
         }
         System.out.println("Незанятая часть отрезка - "+a);
