@@ -4,15 +4,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Введите длины отрезков");
+        System.out.println("(сначала большей длины, затем меньшей)");
         Scanner while1 = new Scanner(System.in);
-        int a = while1.nextInt();
-        int b = while1.nextInt();
-        int c = 50;
-        int d = 7;
-        int  sum = 0;
-        while(d<=c){
-            d+=d;
-            System.out.println(""+d);
+        double a = while1.nextDouble();
+        double b = while1.nextDouble();
+        while(a>=b){
+            a-=b;
         }
+        System.out.println("Незанятая часть отрезка - "+a);
     }
 }
