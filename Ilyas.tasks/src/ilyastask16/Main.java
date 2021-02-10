@@ -14,6 +14,8 @@ public class Main {
         if(a<=0){
             System.out.println("Прочитайте условие еще раз ");
             System.out.println("и запустите программу заново");
+            System.out.println("Число отсалось равно = "+a);
+
 
         }
     }
