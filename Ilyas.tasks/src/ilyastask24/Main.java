@@ -9,14 +9,14 @@ public class Main {
         int a = if24.nextInt();
         int b = if24.nextInt();
         int sum = a+b;
-        if(a>b) {
+        if (a>b) {
             a = sum-a;
-
+            b = sum-b;
         }
-            if(a<b){
-                a=sum-a;
-                b=sum-b;
-            }
+        else{
+            a=sum-a;
+            b=sum-b;
+        }
         System.out.println("Теперь 1-е число = "+a+", а 2-е = "+b);
         }
     }
