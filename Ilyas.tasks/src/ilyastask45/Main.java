@@ -8,9 +8,9 @@ public class Main {
         int a = lastfor.nextInt();
         int b = lastfor.nextInt();
         int sum = a;
-        for (int i = b;i<=b;i++){
+        for (int i = 2;i<=b;i++){
             sum=sum*a;
         }
-        System.out.println(""+sum);
+        System.out.println(a+" в степени "+b+" = "+sum);
     }
 }
