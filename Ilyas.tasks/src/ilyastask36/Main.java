@@ -9,10 +9,12 @@ public class Main {
         double buy = candy.nextDouble();
         System.out.println("рублей");
         int kg;
-        double sout = 1;
+        int some = 0;
         for(kg = 10;kg<=20;kg+=2){
-            System.out.println(sout+" Кг конфет стоит - "+(buy*sout)+" рублей");
-            sout+=0.2;
+            System.out.println(kg/10+"."+some+" Кг конфет стоит - "+(buy*kg)/10+" рублей");
+           some+=2;
+           if(some==10)
+               some=0;
         }
     }
 }
