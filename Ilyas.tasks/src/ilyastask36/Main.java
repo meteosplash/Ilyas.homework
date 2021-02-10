@@ -15,6 +15,7 @@ public class Main {
            some+=2;
            if(some==10)
                some=0;
+
         }
     }
 }
