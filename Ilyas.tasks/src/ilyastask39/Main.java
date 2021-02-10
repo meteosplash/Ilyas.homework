@@ -7,14 +7,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("a: ");
-        double a = scanner.nextDouble();
+        int a = scanner.nextInt();
 
         System.out.print("b: ");
-        double b = scanner.nextDouble();
+        int b = scanner.nextInt();
 
-        double sum = 1;
-        for (double i = a; i <= b; i++) {
-            sum+= sum * Math.pow(i, 2);
+        int sum = 0;
+        for (int i =a; a <= b; a++) {
+            sum+= Math.pow(a, 2);
         }
         System.out.println("Kv sum: " + sum);
     }
