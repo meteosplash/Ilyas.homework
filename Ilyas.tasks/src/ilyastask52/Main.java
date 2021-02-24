@@ -13,6 +13,6 @@ public class Main {
             k++;
             schet = k*k;
         }
-        System.out.println(""+k);
+        System.out.println("K = "+k);
     }
 }
